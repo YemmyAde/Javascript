@@ -20,8 +20,32 @@
     <header>
         <h1>Sanni's Journal</h1>
         <h2>So fresh and so clean</h2>
+        
     </header>
     <main>
+        <div class="container1">
+          <button onclick="clickMe()"> Add new note </button>
+        </div>
+        <div class="container2 group" > 
+                <article >
+                    <h2>13/05/23: Spatulas</h2>
+                    <p><img src="images/spatula.gif" alt="spatulas"></p>
+                    <p>
+                        Yesterday I went to the store and got some much-needed <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a> (What better way to say I love myself than to buy myself a spatula?)
+                    </p>
+                </article>
+            
+        </div>
+        <div class="container3"> 
+            <h2> Add a new note</h2>
+            <form>
+                Title: <input id="title" type="text">  <br><br>
+                Note: <textarea id="note" class="textheight" placeholder="Write note here..."> </textarea><br>
+                <button id="closeButton"> Cancel</button>
+                <button id="submitButton"> Submit</button>
+            </form>    
+        </div>
+    
         <div class="group">
         <article >
             <h2>13/05/23: Spatulas</h2>
@@ -54,7 +78,7 @@
     </form>
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
-
+<script src="scripts.js"> </script>
 </body>
 
 </html>
